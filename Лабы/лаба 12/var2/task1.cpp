@@ -13,7 +13,7 @@ void main()
 	int A[SIZE1] = {};
 	int B[SIZE2] = {};
 	int S[SIZE3] = {};
-	cout << "Ðàçìåðíîñòü ìàññèâîâ: ";
+	cout << "Ð Ð°Ð·Ð¼ÐµÑ€Ð½Ð¾ÑÑ‚ÑŒ Ð¼Ð°ÑÑÐ¸Ð²Ð¾Ð²: ";
 	cin >> n;
 	for (int i = 0; i < n; i++)
 	{
@@ -29,7 +29,7 @@ void main()
 		cout << "B[" << i << "]" << "\t" << B[i] << endl;
 	}
 	cout << " " << endl;
-	cout << "Íîâûé ìàññèâ S: " << endl;
+	cout << "ÐÐ¾Ð²Ñ‹Ð¹ Ð¼Ð°ÑÑÐ¸Ð² S: " << endl;
 	for (int i = 0; i < n; i++)
 	{
 		*(S + (i)) = A[i] + B[i];
