@@ -7,7 +7,7 @@ void main()
 	float y, t, b = 2, j = 6, a = 1.5 * pow(10, -8), i;
 	for (int cnt = 0; cnt <= 3; cnt++)
 	{
-		cout << "Ââåäèòå i: " << endl;
+		cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ i: " << endl;
 		cin >> i;
 
 		y = a / (b + exp(b)) / (1 + i * j);
