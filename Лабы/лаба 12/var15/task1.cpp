@@ -10,7 +10,7 @@ void main()
 	int rmn = -100;
 	const int SIZE = 1000;
 	int arr[SIZE] = {};
-	cout << "Ðàçìåð ìàññèâà: ";
+	cout << "Ð Ð°Ð·Ð¼ÐµÑ€ Ð¼Ð°ÑÑÐ¸Ð²Ð°: ";
 	cin >> n;
 
 	for (int i = 0; i < n; i++)
@@ -20,7 +20,7 @@ void main()
 		cout << "A[" << i << "]" << "\t" << arr[i] << endl;
 	}
 	cout << " " << endl;
-	cout << "Ìàññèâ ïîñëå èçìåíåíèÿ: ";
+	cout << "ÐœÐ°ÑÑÐ¸Ð² Ð¿Ð¾ÑÐ»Ðµ Ð¸Ð·Ð¼ÐµÐ½ÐµÐ½Ð¸Ñ: ";
 	for (int i = 0; i < n; i++)
 	{
 		if (*(arr + (i)) > 0)
