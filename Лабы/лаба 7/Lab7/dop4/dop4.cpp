@@ -33,14 +33,14 @@ int main() {
         x = n * 2 * 7 * 11;
         if (x > 9999) break;
         if (cond(x)) {
-            printf("Номер машины = %d\n", x);
+            printf("РќРѕРјРµСЂ РјР°С€РёРЅС‹ = %d\n", x);
             is = true;
         }
         n++;
     }
 
     if (!is) {
-        printf("Нет результата\n");
+        printf("РќРµС‚ СЂРµР·СѓР»СЊС‚Р°С‚Р°\n");
     }
     return 0;
 
