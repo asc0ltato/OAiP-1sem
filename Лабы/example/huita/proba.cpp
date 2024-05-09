@@ -19,35 +19,35 @@ void inputUniversity(University& university) {
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
 
-    cout << "Ââåäèòå èìÿ: ";
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¸Ð¼Ñ: ";
     cin >> university.name;
-    cout << "Ââåäèòå àäðåñ: ";
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð°Ð´Ñ€ÐµÑ: ";
     cin >> university.address;
     int numSpecialties;
-    cout << "Ââåäèòå êîëè÷åñòâî ñïåöèàëüíîñòåé: ";
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ ÑÐ¿ÐµÑ†Ð¸Ð°Ð»ÑŒÐ½Ð¾ÑÑ‚ÐµÐ¹: ";
     cin >> numSpecialties;
     university.specialties.resize(numSpecialties);
     university.competition.resize(numSpecialties);
     university.pay.resize(numSpecialties);
     for (int i = 0; i < numSpecialties; ++i) {
-        cout << "Ââåäèòå ñïåöèàëüíîñòü: " << i + 1 << ": ";
+        cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÐ¿ÐµÑ†Ð¸Ð°Ð»ÑŒÐ½Ð¾ÑÑ‚ÑŒ: " << i + 1 << ": ";
         cin >> university.specialties[i];
-        cout << "Ó÷àñòâîâàòü â êîíêóðñå íà " << university.specialties[i] << ": ";
+        cout << "Ð£Ñ‡Ð°ÑÑ‚Ð²Ð¾Ð²Ð°Ñ‚ÑŒ Ð² ÐºÐ¾Ð½ÐºÑƒÑ€ÑÐµ Ð½Ð° " << university.specialties[i] << ": ";
         cin >> university.competition[i];
-        cout << "Ââåäèòå îïëàòó çà " << university.specialties[i] << ": ";
+        cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¾Ð¿Ð»Ð°Ñ‚Ñƒ Ð·Ð° " << university.specialties[i] << ": ";
         cin >> university.pay[i];
     }
 }
 
 void outputUniversity(const University& university) {
-    cout << "Èìÿ: " << university.name << endl;
-    cout << "Àäðåñ: " << university.address << endl;
+    cout << "Ð˜Ð¼Ñ: " << university.name << endl;
+    cout << "ÐÐ´Ñ€ÐµÑ: " << university.address << endl;
     int numSpecialties = university.specialties.size();
-    cout << "Êîëè÷åñòâî ñïåöèàëüíîñòåé: " << numSpecialties << endl;
+    cout << "ÐšÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ ÑÐ¿ÐµÑ†Ð¸Ð°Ð»ÑŒÐ½Ð¾ÑÑ‚ÐµÐ¹: " << numSpecialties << endl;
     for (int i = 0; i < numSpecialties; ++i) {
-        cout << "Ñïåöèàëüíîñòü " << i + 1 << ": " << university.specialties[i] << endl;
-        cout << "Êîíêóðåíöèÿ çà " << university.specialties[i] << ": " << university.competition[i] << endl;
-        cout << "Ïëàòèòü çà" << university.specialties[i] << ": " << university.pay[i] << endl;
+        cout << "Ð¡Ð¿ÐµÑ†Ð¸Ð°Ð»ÑŒÐ½Ð¾ÑÑ‚ÑŒ " << i + 1 << ": " << university.specialties[i] << endl;
+        cout << "ÐšÐ¾Ð½ÐºÑƒÑ€ÐµÐ½Ñ†Ð¸Ñ Ð·Ð° " << university.specialties[i] << ": " << university.competition[i] << endl;
+        cout << "ÐŸÐ»Ð°Ñ‚Ð¸Ñ‚ÑŒ Ð·Ð°" << university.specialties[i] << ": " << university.pay[i] << endl;
     }
 }
 
