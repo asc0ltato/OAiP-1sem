@@ -16,14 +16,14 @@ int main() {
 		massiv_B[i] = rand() % 10;
 	}
 
-	cout << "Ìàññèâ A:" << endl;
+	cout << "ĞœĞ°ÑÑĞ¸Ğ² A:" << endl;
 
 	for (int i = 0; i < sz; i++) {
 
 		cout << *(massiv_A + i) << " ";
 	}
 	cout << "\n";
-	cout << "Ìàññèâ B:" << endl;
+	cout << "ĞœĞ°ÑÑĞ¸Ğ² B:" << endl;
 
 	for (int j = 0; j < sz; j++) {
 		cout << *(massiv_B + j) << " ";
@@ -31,10 +31,10 @@ int main() {
 	cout << "\n";
 	for (int i = 0; i < sz; i++) {
 		if (*(massiv_A + i) == *(massiv_B + i)) {
-			cout << "İëåìåíòû ìàññèâîâ ğàâíû: " << massiv_A[i] << " = " << massiv_B[i] << endl;
-			cout << "İëåìåíòû ìàññèâîâ ğàâíû: " << "massiv_A[" << i << "] = " << "massiv_B[" << i << "]" << endl;
+			cout << "Ğ­Ğ»ĞµĞ¼ĞµĞ½Ñ‚Ñ‹ Ğ¼Ğ°ÑÑĞ¸Ğ²Ğ¾Ğ² Ñ€Ğ°Ğ²Ğ½Ñ‹: " << massiv_A[i] << " = " << massiv_B[i] << endl;
+			cout << "Ğ­Ğ»ĞµĞ¼ĞµĞ½Ñ‚Ñ‹ Ğ¼Ğ°ÑÑĞ¸Ğ²Ğ¾Ğ² Ñ€Ğ°Ğ²Ğ½Ñ‹: " << "massiv_A[" << i << "] = " << "massiv_B[" << i << "]" << endl;
 			col_par += 1;
 		}
 	}
-	cout << "Êîë-âî ïàğ: " << *ukazatel << endl;
+	cout << "ĞšĞ¾Ğ»-Ğ²Ğ¾ Ğ¿Ğ°Ñ€: " << *ukazatel << endl;
 }
