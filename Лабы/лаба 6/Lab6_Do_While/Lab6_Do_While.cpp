@@ -7,7 +7,7 @@ void main() {
 	float y, t, b = 2.4, j = 6, a = 1.5 * pow(10, -8), i;
 	for (int cnt = 0; cnt <= 2; cnt++)
 	{
-		cout << "Ââåäèòå i: ";
+		cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ i: ";
 		cin >> i;
 
 		do
