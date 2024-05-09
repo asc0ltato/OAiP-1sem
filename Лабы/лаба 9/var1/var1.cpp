@@ -1,4 +1,4 @@
-//Трапеция
+//РўСЂР°РїРµС†РёСЏ
 //#include <iostream>
 //using namespace std;
 //void main()
@@ -15,7 +15,7 @@
 //	cout << "s = " << s << endl;
 //}
 
-//Парабола
+//РџР°СЂР°Р±РѕР»Р°
 //#include <iostream>
 //using namespace std;
 //int main()
@@ -37,7 +37,7 @@
 //	cout << "s = " << s << endl;
 //}
 
-//Дихотомия
+//Р”РёС…РѕС‚РѕРјРёСЏ
 #include <iostream>
 using namespace std;
 void main()
