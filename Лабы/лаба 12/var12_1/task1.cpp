@@ -5,11 +5,11 @@ using namespace std;
 void main()
 {
     setlocale(LC_ALL, "Russian");
-    int num, z; // размер массива
-    cout << "Кол-во значений в массиве: ";
-    cin >> num; // получение от пользователя размера массива
+    int num, z; // СЂР°Р·РјРµСЂ РјР°СЃСЃРёРІР°
+    cout << "РљРѕР»-РІРѕ Р·РЅР°С‡РµРЅРёР№ РІ РјР°СЃСЃРёРІРµ: ";
+    cin >> num; // РїРѕР»СѓС‡РµРЅРёРµ РѕС‚ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ СЂР°Р·РјРµСЂР° РјР°СЃСЃРёРІР°
 
-    int* Arr = new int[num]; // Выделение памяти для массива  *(Arr+i) - указатель Arr[i] -id
+    int* Arr = new int[num]; // Р’С‹РґРµР»РµРЅРёРµ РїР°РјСЏС‚Рё РґР»СЏ РјР°СЃСЃРёРІР°  *(Arr+i) - СѓРєР°Р·Р°С‚РµР»СЊ Arr[i] -id
 
     for (int i = 0; i < num; i++) {
         *(Arr + i) = rand() % 99;
@@ -21,38 +21,38 @@ void main()
         *(Arrb + i) = rand() % 99;
     }
 
-    cout << "\nВаш массив A: ";
+    cout << "\nР’Р°С€ РјР°СЃСЃРёРІ A: ";
 
     for (int i = 0; i < num; ++i) {
         cout << *(Arr + i) << " ";
     }
 
-    cout << "\nВаш массив B: ";
+    cout << "\nР’Р°С€ РјР°СЃСЃРёРІ B: ";
     for (int i = 0; i < num; ++i) {
         cout << *(Arrb + i) << " ";
     }
 
-    cout << "\n МЕНЬШЕ";
+    cout << "\n РњР•РќР¬РЁР•";
 
     for (int i = 0; i < num; ++i) {
         if (*(Arr + i) < (*(Arrb + i))) {
-            cout << " [А]" << *(Arr + i) << "<[B]" << *(Arrb + i);
+            cout << " [Рђ]" << *(Arr + i) << "<[B]" << *(Arrb + i);
         }
     }
-    cout << "\n БОЛЬШЕ";
+    cout << "\n Р‘РћР›Р¬РЁР•";
 
     for (int i = 0; i < num; ++i) {
         if (*(Arr + i) > *(Arrb + i)) {
-            cout << " [А]" << *(Arr + i) << ">[B]" << *(Arrb + i);
+            cout << " [Рђ]" << *(Arr + i) << ">[B]" << *(Arrb + i);
         }
     }
-    cout << "\n РАВНЫЕ";
+    cout << "\n Р РђР’РќР«Р•";
 
     for (int i = 0; i < num; ++i) {
         if (*(Arr + i) == *(Arrb + i)) {
-            cout << " [А]" << *(Arr + i) << "= [B]" << *(Arrb + i);
+            cout << " [Рђ]" << *(Arr + i) << "= [B]" << *(Arrb + i);
         }
     }
     delete[] Arr;
-    delete[] Arrb;// очистка памяти
+    delete[] Arrb;// РѕС‡РёСЃС‚РєР° РїР°РјСЏС‚Рё
 }
