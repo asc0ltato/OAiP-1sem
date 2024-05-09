@@ -25,7 +25,7 @@ int main()
 			osadki = 0;
 		}
 	}
-	cout << "Êîë-âî îñàäêîâ : " << max_osadki << endl;
-	cout << "Íåäåëÿ : " << data;
+	cout << "ĞšĞ¾Ğ»-Ğ²Ğ¾ Ğ¾ÑĞ°Ğ´ĞºĞ¾Ğ² : " << max_osadki << endl;
+	cout << "ĞĞµĞ´ĞµĞ»Ñ : " << data;
 	return 0;
 }
