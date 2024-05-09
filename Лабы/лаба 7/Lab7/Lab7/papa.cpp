@@ -6,7 +6,7 @@ int main()
 	double v, s = 5.2, x, j = 10.4 * pow(10, 4);
 	for (int cnt = 0; cnt <= 3; cnt++)
 	{
-		cout << "Ââåäèòå x: "<< endl;
+		cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ x: "<< endl;
 		cin >> x;
 		if (2 * s > x * j)
 		{
