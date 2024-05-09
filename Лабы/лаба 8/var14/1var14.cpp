@@ -11,7 +11,7 @@ int main()
 
 	for (int i = 0; i < 5; i++)
 	{
-		cout << "Ââåäèòå ÷èñëî y: "; cin >> y;
+		cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾ y: "; cin >> y;
 		sum_y += y;
 		if (sum_y > c)
 		{
