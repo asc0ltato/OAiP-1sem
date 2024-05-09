@@ -7,7 +7,7 @@ void main()
     setlocale(LC_ALL, "Russian");
     srand(time(NULL));
     int size;
-    cout << "Ââåäèòå ðàçìåðíîñòü ìàññèâà: ";
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€Ð½Ð¾ÑÑ‚ÑŒ Ð¼Ð°ÑÑÐ¸Ð²Ð°: ";
     cin >> size;
     int* arr = new int[size];
     int t;
@@ -15,14 +15,14 @@ void main()
     for (int i = 0; i < size; i++)
         arr[i] = 1 + rand() % 99;
 
-    cout << "Èñõîäíûé ìàññèâ: ";
+    cout << "Ð˜ÑÑ…Ð¾Ð´Ð½Ñ‹Ð¹ Ð¼Ð°ÑÑÐ¸Ð²: ";
 
     for (int i = 0; i < size; i++)
         cout << *(arr + i) << " ";
     
     cout << endl;
     cout << endl;
-    cout << "Ââåäèòå t: ";
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ t: ";
     cin >> t;
 
     for (int i = 0; i < size - 1; i++)
