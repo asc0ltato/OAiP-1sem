@@ -1,4 +1,4 @@
-//2.Извлечь 3 бита числа А, начиная с позиции n по счету справа, и вставить в число В, начиная с позиции m.
+//2.РР·РІР»РµС‡СЊ 3 Р±РёС‚Р° С‡РёСЃР»Р° Рђ, РЅР°С‡РёРЅР°СЏ СЃ РїРѕР·РёС†РёРё n РїРѕ СЃС‡РµС‚Сѓ СЃРїСЂР°РІР°, Рё РІСЃС‚Р°РІРёС‚СЊ РІ С‡РёСЃР»Рѕ Р’, РЅР°С‡РёРЅР°СЏ СЃ РїРѕР·РёС†РёРё m.
 #include <iostream>
 #include <stdio.h>
 using namespace std;
@@ -7,12 +7,12 @@ void main()
 	setlocale(0, "");
 	char tmp[33];
 	int A, B, n, m;
-	cout << "Введите A: ", cin >> A;
-	cout << "Введите B: ", cin >> B;
-	cout << "Введите n: ", cin >> n;
-	cout << "Введите m: ", cin >> m;
-	_itoa_s(A, tmp, 2); cout << "Число A " << tmp << endl;
-	_itoa_s(B, tmp, 2); cout << "Число B " << tmp << endl;
+	cout << "Р’РІРµРґРёС‚Рµ A: ", cin >> A;
+	cout << "Р’РІРµРґРёС‚Рµ B: ", cin >> B;
+	cout << "Р’РІРµРґРёС‚Рµ n: ", cin >> n;
+	cout << "Р’РІРµРґРёС‚Рµ m: ", cin >> m;
+	_itoa_s(A, tmp, 2); cout << "Р§РёСЃР»Рѕ A " << tmp << endl;
+	_itoa_s(B, tmp, 2); cout << "Р§РёСЃР»Рѕ B " << tmp << endl;
 	B ^= 7 << m;
 	B |= ((A & (7 << n)) >> n) << m;
 	_itoa_s(B, tmp, 2); cout << "B = " << tmp << endl;
