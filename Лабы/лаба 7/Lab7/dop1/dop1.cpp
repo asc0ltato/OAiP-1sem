@@ -30,10 +30,8 @@ int main(void) {
 		x = n * n;
 		y = (int)log10(x);
 		if (2 == y && is_range(x) && is_prime(n)) {
-			printf("Это число: %u\n", x);
+			printf("Р­С‚Рѕ С‡РёСЃР»Рѕ: %u\n", x);
 		}
 		n += 2;
 	} while (y < 3);
 }
-
-
