@@ -5,11 +5,11 @@ int main()
 	using namespace std;
 	setlocale(LC_ALL, "Russian");
 	int n, k, max, num;
-	cout <<"Ââåäèòå ðàçìåð ìàññèâà:\n";
+	cout <<"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ð¼Ð°ÑÑÐ¸Ð²Ð°:\n";
 	cout << "n = ";
 	cin >> n;
 	int* arr = new int[n];
-	cout << "Ââåäèòå ìàññèâ:\n";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¼Ð°ÑÑÐ¸Ð²:\n";
 	for (int i = 0; i < n; i++)
 	{
 		cin >> arr[i];
@@ -31,6 +31,6 @@ int main()
 			k = 0;
 		}
 	}
-	cout << "×èñëî " << num << " ïîâòîðÿåòñÿ " << max << " ðàç(à)\n";
+	cout << "Ð§Ð¸ÑÐ»Ð¾ " << num << " Ð¿Ð¾Ð²Ñ‚Ð¾Ñ€ÑÐµÑ‚ÑÑ " << max << " Ñ€Ð°Ð·(Ð°)\n";
 	return 0;
 }
