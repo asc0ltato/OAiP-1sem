@@ -6,7 +6,7 @@ void main()
     setlocale(LC_ALL, "Rus");
     const int size = 6;
     int arr[size], max, min, nommax, nommin, sum;
-    cout << "Ââåäèòå ïîñëåäîâàòåëüíîñòü ÷èñåë" << endl;
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¿Ð¾ÑÐ»ÐµÐ´Ð¾Ð²Ð°Ñ‚ÐµÐ»ÑŒÐ½Ð¾ÑÑ‚ÑŒ Ñ‡Ð¸ÑÐµÐ»" << endl;
     cin >> arr[0];
     cin >> arr[1];
     cin >> arr[2];
@@ -34,6 +34,6 @@ void main()
     {
         sum = abs(nommin - nommax) - 1;
     }
-    cout << "Êîëè÷åñòâî ýëåìåíòîâ = " << sum << endl << endl;
+    cout << "ÐšÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² = " << sum << endl << endl;
 
 }
