@@ -1,0 +1,33 @@
+﻿Сборка начата 11.10.2022 1:16:18.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\Леново\Desktop\АОИП\[eq\huita\huita\huita.vcxproj" в узле 2 (целевые объекты Rebuild).
+     1>PrepareForBuild:
+         Создание каталога "C:\Users\Леново\Desktop\АОИП\[eq\huita\x64\Release\".
+         Создание каталога "x64\Release\huita.tlog\".
+       InitializeBuildStatus:
+         Создание "x64\Release\huita.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\CL.exe /c /Zi /nologo /W3 /WX- /diagnostics:column /sdl /O2 /Oi /GL /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Release\\" /Fd"x64\Release\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt proba.cpp
+         proba.cpp
+     1>C:\Users\Леново\Desktop\АОИП\[eq\huita\huita\proba.cpp(3,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Леново\Desktop\АОИП\[eq\huita\x64\Release\huita.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Леново\Desktop\АОИП\[eq\huita\x64\Release\huita.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /LTCGOUT:"x64\Release\huita.iobj" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Леново\Desktop\АОИП\[eq\huita\x64\Release\huita.lib" /MACHINE:X64 x64\Release\proba.obj
+         Создание кода
+         Previous IPDB not found, fall back to full compilation.
+         All 4 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         Создание кода завершено
+         huita.vcxproj -> C:\Users\Леново\Desktop\АОИП\[eq\huita\x64\Release\huita.exe
+       FinalizeBuildStatus:
+         Файл "x64\Release\huita.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Release\huita.tlog\huita.lastbuildstate".
+     1>Сборка проекта "C:\Users\Леново\Desktop\АОИП\[eq\huita\huita\huita.vcxproj" завершена (целевые объекты Rebuild).
+
+Сборка успешно завершена.
+
+       "C:\Users\Леново\Desktop\АОИП\[eq\huita\huita\huita.vcxproj" (целевой объект Rebuild ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\Леново\Desktop\АОИП\[eq\huita\huita\proba.cpp(3,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+
+    Предупреждений: 1
+    Ошибок: 0
+
+Прошло времени 00:00:00.59
